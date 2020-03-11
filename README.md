@@ -13,7 +13,7 @@ You will need to specify the window size, window increment, and the sampling fre
 
 As this is a matlab function (adding a python version soon), then usage is really simple, just call this function by submitting the signals matrix (denoted as variable x) as input
 
-	feat = getwtfeat(x,winsize,wininc,samplingFreq)
+	feat = getmswtfeat(x,winsize,wininc,samplingFreq)
 
 ## Inputs
 	x 		columns of signals (rows are samples and column are the signals).
