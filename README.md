@@ -16,10 +16,10 @@ As this is a matlab function (adding a python version soon), then usage is reall
 	feat = getwtfeat(x,winsize,wininc,samplingFreq)
 
 ## Inputs
-	x 			columns of signals (rows are samples and column are the signals).
+	x 		columns of signals (rows are samples and column are the signals).
 	winsize 	window size.
 	wininc		how much to slid the windows by.
-	SF			sampling frequency in Hz.
+	SF		sampling frequency in Hz.
 
 ## Outputs
 	feat	extracted wavelet features from all nodes/signals
